@@ -11,6 +11,7 @@ nbminer_prometheus_exporter
 ```
 
 ## Arguments
+```
 Usage
   -host string
         host and port to bind to for which prometheus polls (default ":2112")
@@ -18,3 +19,4 @@ Usage
         the host and port where nbminer is exporting, {VALUE}/api/v1/status (default "http://localhost:22333")
   -polling_interval int
         The number of seconds to sleep between polling invervals (default 30)
+```
