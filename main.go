@@ -97,9 +97,9 @@ func poll(sleep func()) {
 }
 
 func main() {
-	flag.StringVar(&hostString, "host string", ":2112", "host and port to bind to for which prometheus polls")
-	flag.StringVar(&minerEndpoint, "miner endpoint", "http://localhost:22333", "the host and port where nbminer is exporting, http://localhost:22333/api/v1/status")
-	flag.IntVar(&pollingInterval, "Polling interval in seconds", 30, "The number of seconds to sleep between polling invervals")
+	flag.StringVar(&hostString, "host", ":2112", "host and port to bind to for which prometheus polls")
+	flag.StringVar(&minerEndpoint, "minter", "http://localhost:22333", "the host and port where nbminer is exporting, {VALUE}/api/v1/status")
+	flag.IntVar(&pollingInterval, "polling_interval", 30, "The number of seconds to sleep between polling invervals")
 
 	flag.Parse()
 
