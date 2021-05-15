@@ -1,7 +1,7 @@
 # nbminer_prometheus_exporter
 
-This is a simple application which will sit infront of your NBMiner and export the statistics from the web endpoint
-in a prometheus parsable format.
+This is a simple application which will sit in front of your NBMiner and export the statistics from the web endpoint
+in a prometheus parsable format. This allows you to have your NBMiner stats in Prometheus and thus likely grafana.
 
 ## Usage
 
